@@ -48,30 +48,34 @@ textarea {
 
 
  @font-face {
- font-family: "font90557";
- src: local('Avenir Next LT Pro Heavy Condensed'), url('/AvenirNextLTPro-HeavyCnIt.woff') format('woff');
- font-weight: normal;
- font-style: normal;
- }
- @font-face {
-  font-family: "font86098";
-  src: url("/AvenirNextLTPro-DemiCn.woff") format("woff");
-  font-weight: normal;
+  font-family: 'Avenir Next LT Pro Heavy Condensed Italic';
   font-style: normal;
+  font-weight: normal;
+  src: local('Avenir Next LT Pro Heavy Condensed Italic'), url('/fonts/AvenirNextLTPro-HeavyCnIt.woff') format('woff');
   }
+
+  @font-face {
+    font-family: 'Avenir Next LT Pro Demi Condensed Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Demi Condensed Italic'), url('/fonts/AvenirNextLTPro-DemiCnIt.woff') format('woff');
+    }
+    
   
  #wrap{
- 
+  font-family: "Avenir Next LT Pro Demi Condensed Italic"!important;
   display: block;
   position: relative;
   width: 540px;
-  height: 540px;
+  height: 675px;
   margin: 0 auto;
   text-align: center;
+
 }
  #nav {
   display: block;
-  position: relative;
+  position: absolute;
+padding-top: 5px;;
   width: 540px;
   height: 30px;
   background: #093d8c;
@@ -82,24 +86,17 @@ textarea {
 #nav a {
   position: relative;
   display: inline;
-  background: #222;
   color: white;
   cursor: pointer;
   
 }
 #nav #dl{
-  font-family: "font90557","font86098";
+  position: relative;
+  display: inline;
+  font-family: "Avenir Next LT Pro Demi Condensed Italic"!important;
 }
-/* ==========================================================================
- Media Queries
- ========================================================================== */
-@media only screen and (min-width: 35em) {
-}
-@media print,
-     (-o-min-device-pixel-ratio: 5/4),
-     (-webkit-min-device-pixel-ratio: 1.25),
-     (min-resolution: 120dpi) {
-}
+
+
 /* ==========================================================================
  Helper classes
  ========================================================================== */
@@ -139,55 +136,4 @@ textarea {
 }
 .clearfix {
   *zoom: 1;
-}
-/* ==========================================================================
- Print styles
- ========================================================================== */
-@media print {
-  *,
-  *:before,
-  *:after {
-      background: transparent !important;
-      color: #000 !important;
-      box-shadow: none !important;
-      text-shadow: none !important;
-  }
-  a,
-  a:visited {
-      text-decoration: underline;
-  }
-  a[href]:after {
-      content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-      content: " (" attr(title) ")";
-  }
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-      content: "";
-  }
-  pre,
-  blockquote {
-      border: 1px solid #999;
-      page-break-inside: avoid;
-  }
-  thead {
-      display: table-header-group;
-  }
-  tr,
-  img {
-      page-break-inside: avoid;
-  }
-  img {
-      max-width: 100% !important;
-  }
-  p,
-  h2,
-  h3 {
-      orphans: 3;
-      widows: 3;
-  }
-  h2,h3 {
-      page-break-after: avoid;
-  }
 }
