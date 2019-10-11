@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
         var preheadline = new fabric.IText("GÆT RIGTIGT OG VIND 200 KRONER!", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic", 
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic", 
             left: canvas.width/2,
             top: 45,
             width:450,
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var subtxt1 = new fabric.Textbox("Danmark vinder med mindst syv mål", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic", 
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic", 
             left: 5,
             top: 380,
             width:160,
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var subtxt2 = new fabric.Textbox("Danmark vinder med mindst syv mål", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic",  
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic",  
             left: 190,
             top: 380,
             width:160,
@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         var subtxt3 = new fabric.Textbox("Danmark vinder med mindst syv mål", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic",  
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic",  
             left: 370,
             top: 380,
             width:160,
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var subtxt4 = new fabric.Textbox("Danmark vinder med mindst syv mål", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic",   
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic",   
             left: 5,
             top: 530,
             width:160,
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var subtxt5 = new fabric.Textbox("Danmark vinder med mindst syv mål", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic",   
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic",   
             left: 190,
             top: 530,
             width:160,
@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var subtxt6 = new fabric.Textbox("Danmark vinder med mindst syv mål", { 
             fontStyle: 'italic',
-            fontFamily: "Avenir Next LT Pro Demi Condensed Italic",   
+            fontFamily: "Avenir Next LT Pro Heavy Condensed Italic",   
             left: 370,
             top: 530,
             width:160,
